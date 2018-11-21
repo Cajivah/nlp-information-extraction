@@ -2,8 +2,9 @@ version: '3.7'
 
 services:
     nlp-data-analysis-notebook:
-        image: jupyter/datascience-notebook
+        build:
+            context: ./
         volumes:
-            - ./:/home/jovyan/work
+            - ./:/home/nlp/
         ports:
             - "8888:8888"
