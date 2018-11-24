@@ -1,0 +1,18 @@
+{
+  "content": "Pokój do wynajęcia. Pokój ok 13m2 w nowym budownictwie w bloku przy ul. Zielińskiego, przy Biedronce (blisko SkyTower i Arkady Wrocławskie). Mieszkanie dwupokojowe, w pokoju obok mieszka właścicielka. 2 pietro, winda. W pokoju szafa na wymiar. Mieszkanie bardzo ciepłe, dostęp do wyposażonej kuchni.\nKaucja 800z",
+  "meta": {
+    "subject": "room",
+    "rent": null,
+    "bills": null,
+    "deposit": 800,
+    "internetSpeed": null,
+    "district": null,
+    "street": "Zielińskiego",
+    "roomsCount": 2,
+    "flatmatesCount": 1,
+    "flatmatesGenders": ["female"],
+    "flatmatesOccupation": null,
+    "prefferedOccupation": null,
+    "prefferedGender": null
+  }
+}

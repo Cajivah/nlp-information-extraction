@@ -1,0 +1,18 @@
+{
+  "content": "Pokój do wynajecia w centrum Wrocławia (obok Sky Tower). Wynajmę pokój w centrum miasta obok Sky Tower ul. Wielka 7, w mieszkaniu 3-pokojowym po generalnym remoncie. Świetna lokalizacja, 100 m od przystanków tramwajowych na Powstańców Śląskich, 50 m od przystanków autobusowych. Mieszkanie jest w pełni wyposażone, jasne i nowoczesne. W pokojach znajduje się szafa, biurko, krzesło i tapczan. Opłaty to 800 zł za wynajem + ok 170 zł za media (prąd, gaz, czynsz administracyjny). Preferowane osoby pracujące. Kontakt 607416885 . Pokój dostępny od 1 grudnia ",
+  "meta": {
+    "subject": "room",
+    "rent": 800,
+    "bills": 170,
+    "deposit": null,
+    "internetSpeed": null,
+    "district": null,
+    "street": "Wielka 7",
+    "roomsCount": 3,
+    "flatmatesCount": null,
+    "flatmatesGenders": null,
+    "flatmatesOccupation": null,
+    "prefferedOccupation": "proffesional",
+    "prefferedGender": null
+  }
+}

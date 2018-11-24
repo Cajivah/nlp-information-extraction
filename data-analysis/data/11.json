@@ -1,0 +1,18 @@
+{
+  "content": "Pokój w centrum. Centralna lokalizacja, blisko Sky Tower, ul. Krucza.\n\nPokój ok 20 m2 w mieszkaniu trzypokojowym. W pozostałych pokojach mieszkają dwie pracujące dziewczyny.\n\nBezpieczne drzwi wejściowe, pokój zamykany na klucz, ogrzewanie miejskie, oddzielona kuchnia i łazienka i prysznicem.\n\nCzynsz za pokój 950 zł (+ rachunki około 80 zł na osobę, zależności od użycia) płatne miesięcznie. Kaucja jest 950 zł.\nPokój dostępny od 1 grudnia.\n\nProszę o kontakt przez OLX lub SMS.",
+  "meta": {
+    "subject": "room",
+    "rent": 950,
+    "bills": 80,
+    "deposit": 950,
+    "internetSpeed": null,
+    "district": null,
+    "street": "Krucza",
+    "roomsCount": 3,
+    "flatmatesCount": 2,
+    "flatmatesGenders": ["female", "female"],
+    "flatmatesOccupation": ["proffesional", "proffesional"],
+    "prefferedOccupation": null,
+    "prefferedGender": null
+  }
+}

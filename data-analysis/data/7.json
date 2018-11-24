@@ -1,0 +1,18 @@
+{
+  "content": "Wynajmę pokój przy Akademii Ekonomicznej bez dodatkowych opłat. Wynajmę pokój (25 m2) w mieszkaniu trzy-pokojowym na ul. Tomaszowskiej (okolice UE). Pokój jest wyposażony w sofę, szafę, krzesła, stół, dodatkowo do pokoju przynależy loggia 3m2. Mieszkanie jest całkowicie wyposażone(pralka, zmywarka, wszystkie media miejskie w cenie wynajmu). Lokalizacja posiada bardzo dobre połączenia autobusowe i tramwajowe (UE 8 min spacerem).\nKaucja zwrotna 1200 zł, Wynajem 1200 zł.\n",
+  "meta": {
+    "subject": "room",
+    "rent": 1200,
+    "bills": 0,
+    "deposit": 1200,
+    "internetSpeed": null,
+    "district": null,
+    "street": "Tomaszowska",
+    "roomsCount": 3,
+    "flatmatesCount": null,
+    "flatmatesGenders": null,
+    "flatmatesOccupation": null,
+    "prefferedOccupation": null,
+    "prefferedGender": null
+  }
+}

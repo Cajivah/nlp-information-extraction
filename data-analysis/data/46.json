@@ -1,0 +1,18 @@
+{
+  "content": "Wynajem pokoju, pokój do wynajęcia ul. Siemieńskiego. Do wynajęcia od 01.12.2018 pokój jednoosobowy w mieszkaniu 4 pokojowym.\nMieszkanie po generalnym remoncie. Wysoki standard. Pierwszy najem.\nMieszkanie na parterze, w kamienicy. Wysokość kondygnacji 3,40 m.\nLOKALIZACJA:\nul. Siemieńskiego we Wrocławiu\nWYPOSAŻENIE:\nMieszkanie w pełni wyposażone.\nKuchnia: lodówka, płyta indukcyjna, piekarnik, czajnik elektryczny. Do dyspozycji mieszkańców komplet naczyń. W kuchni stół barowy z hokerami.\nŁazienka: prysznic, pralka, suszarka na pranie.\nDrzwi wewnętrzne do pokoi zamykane na klucz.\nOPIS POKOI:\nPokój przeznaczony pod wynajem wyposażony jest w łóżko jednoosobowe, szafę, biurko, krzesło, lampkę. Koszt: 700 zł + opłaty wg. zużycia.\nOpłaty to około 150 zł/os.\nW pozostałych trzech pokojach mieszkają 3 studentki.\nW mieszkaniu do dyspozycji mieszkańców WiFi. Możliwość podłączenia telewizji.\nWymagana kaucja w wysokości miesięcznego czynszu.\nZ najemcami spisana będzie umowa najmu na czas określony z jedno miesięcznym wypowiedzeniem.\nW razie pytań zapraszam do kontaktu na priv lub pod nr telefonu: 661-998-610 . Jeżeli nie będę mógł odebrać proszę o wiadomość SMS. Oddzwonię. ",
+  "meta": {
+    "subject": "room",
+    "rent": 700,
+    "bills": 150,
+    "deposit": 850,
+    "internetSpeed": null,
+    "district": null,
+    "street": "Siemieńskiego",
+    "roomsCount": 4,
+    "flatmatesCount": 3,
+    "flatmatesGenders": ["female", "female", "female"],
+    "flatmatesOccupation": null,
+    "prefferedOccupation": "student",
+    "prefferedGender": "female"
+  }
+}

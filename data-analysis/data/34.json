@@ -1,0 +1,18 @@
+{
+  "content": "Zaporoska, samodzielny pokój, 650 zł + opłaty! Polecamy do wynajęcia samodzielny pokój w mieszkaniu 3-pokojowym, położonym przy ul. Zaporowskiej we Wrocławiu, w bardzo bliskim sąsiedztwie Sky Tower. Trzy pokoje w pełnym rozkładzie, jasna oddzielna kuchnia, łazienka razem z wc. W mieszkaniu zamieszkuje uczący się i pracujący chłopak. Mieszkanie umeblowane i wyposażone. Dodatkowe opłaty to ok. 220 zł.\nKaucja jednomiesięczna.\nPokój wolny, klucze w biurze!\nPolecamy i zapraszamy na prezentację!\nOgłoszenie zamieszcza biuro nieruchomości.\nZamieszczone na naszych stronach oferty nie stanowią oferty w rozumieniu Kodeksu Cywilnego, a dane w nich zawarte mają jedynie charakter informacyjny i mogą ulec zmianie. ",
+  "meta": {
+    "subject": "room",
+    "rent": 650,
+    "bills": 220,
+    "deposit": 870,
+    "internetSpeed": null,
+    "district": null,
+    "street": "Zaporoska",
+    "roomsCount": 3,
+    "flatmatesCount": null,
+    "flatmatesGenders": null,
+    "flatmatesOccupation": ["student"],
+    "prefferedOccupation": null,
+    "prefferedGender": null
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "content": "Miejsce w pokoju dwuosobowym dla dziewczyny. Do wynajęcia miejsce w pokoju dwuosobowym dla dziewczyny.\n\nPokój w mieszkaniu 3 pokojowym (kuchnia, dwa pokoje 2-osobowe, łazienka) zamieszkiwanym przez 3 dziewczyny. W pokoju znajdują się 2 łóżka, 2 biurka, 2 krzesła, bardzo duża szafa. Z pokoju można wyjść na balkon. Mieszkanie jest nowoczesne, duże, w pełni wyposażone.\nMiejsce w garażu podziemnym, komórka lokatorska.\n\nLokalizacja: Mieszkanie znajduje się na strzeżonym osiedlu, około 3 min. do przystanku Nowowiejska.\n\nCena: 675zł (czynsz, ogrzewanie, woda, śmieci, opłata wspólnoty mieszkaniowej) + prąd.\n\nSzukamy spokojnej, niepalącej dziewczyny, dbającej o porządek, najlepiej studentki.",
+  "meta": {
+    "subject": "roomShare",
+    "rent": 675,
+    "bills": null,
+    "deposit": null,
+    "internetSpeed": null,
+    "district": "Krzyki",
+    "street": "Burzowa 3",
+    "roomsCount": 3,
+    "flatmatesCount": 3,
+    "flatmatesGenders": ["female", "female", "female"],
+    "flatmatesOccupation": null,
+    "prefferedOccupation": "student",
+    "prefferedGender": "female"
+  }
+}
