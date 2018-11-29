@@ -1,1 +1,6 @@
 .ipynb_checkpoints
+
+\.idea/
+\venv/
+
+data-analysis/src/__pycache__/
