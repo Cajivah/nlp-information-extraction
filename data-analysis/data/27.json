@@ -12,7 +12,7 @@
     "flatmatesCount": null,
     "flatmatesGenders": null,
     "flatmatesOccupation": ["student", "student"],
-    "prefferedOccupation": null,
-    "prefferedGender": null
+    "preferredOccupation": null,
+    "preferredGender": null
   }
 }

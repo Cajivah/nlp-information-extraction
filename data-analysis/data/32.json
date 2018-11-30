@@ -12,7 +12,7 @@
     "flatmatesCount": 2,
     "flatmatesGenders": ["female", "female"],
     "flatmatesOccupation": ["proffesional", "proffesional"],
-    "prefferedOccupation": "proffesional",
-    "prefferedGender": "female"
+    "preferredOccupation": "proffesional",
+    "preferredGender": "female"
   }
 }
