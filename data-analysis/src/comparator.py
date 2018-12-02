@@ -23,6 +23,22 @@ def compare_values(value1, value2):
     return value1 == value2
 
 
+def print_diff(diffs):
+    for diff in diffs:
+        print(diff['data'] + '\n')
+        for key, value in diff['meta'].items():
+            print("{} - {} / {}".format(key, value['original'], value['extracted']))
+        print('\n---------------------------------------------------------\n')
+
+
+def print_correctly_extracted(data_list):
+    for data in data_list:
+        print(data['data'] + '\n')
+        for key, value in data['meta'].items():
+            print("{} - {}".format(key, value))
+        print('\n---------------------------------------------------------\n')
+
+
 class Comparator:
     def __init__(self, datasets: list):
         self.datasets = datasets
