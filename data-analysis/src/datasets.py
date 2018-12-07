@@ -13,7 +13,7 @@ def load(json_dir_name):
     data = []
     files = glob.glob(json_pattern)
     for file in files:
-        with open(file) as json_data:
+        with open(file, encoding='utf-8') as json_data:
             classified_json = json.load(json_data)
             data.append(classified_json)
     return data
