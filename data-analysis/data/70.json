@@ -1,0 +1,18 @@
+{
+  "content": "Pokój dla studenta WI-FI gratis. Wynajmę pokój dwuosobowy. Cena dla jednej osoby 490 zł razem z mediami (woda, prąd). Pokój znajduje się w domu jednorodzinnym na parterze. Osobne wejście. Osobna toaleta i prysznic. Aneks kuchenny z wyposażeniem (talerze, garnki, szklanki, sztućce). W pokoju dwa łóżka, szafa, dwa biurka, dwie komody. ",
+  "meta": {
+    "subject": "roomShare",
+    "rent": 490,
+    "bills": 0,
+    "deposit": null,
+    "internetSpeed": null,
+    "district": null,
+    "street": null,
+    "roomsCount": null,
+    "flatmatesCount": null,
+    "flatmatesGenders": null,
+    "flatmatesOccupation": null,
+    "preferredOccupation": null,
+    "preferredGender": null
+  }
+}

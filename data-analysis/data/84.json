@@ -1,0 +1,18 @@
+{
+  "content": "Wynajmę pokój 1 osobowy ul.Nyska wysoki standard. Mam do wynajęcia pokój jednoosobowy przy ul. Nyskiej we Wrocławiu. Pokój ma powierzchnię około 11m2. Znajduje się w mieszkaniu 3- pokojowym 75m2, z w pełni wyposażoną kuchnią ze zmywarką, łazienką i dodatkowym wc. Cena ze wszystkimi opłatami to 1100zł łącznie z internetem (900zł + 200 opłaty). W tym mieszkaniu będzie do wynajęcia także duży pokój dla pary. Zainteresowani mogą także wynająć miejsce postojowe w garażu podziemnym. ",
+  "meta": {
+    "subject": "room",
+    "rent": 900,
+    "bills": 200,
+    "deposit": null,
+    "internetSpeed": null,
+    "district": null,
+    "street": "Nyska",
+    "roomsCount": 3,
+    "flatmatesCount": null,
+    "flatmatesGenders": null,
+    "flatmatesOccupation": null,
+    "preferredOccupation": null,
+    "preferredGender": null
+  }
+}

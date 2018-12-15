@@ -1,0 +1,18 @@
+{
+  "content": "Pokój do wynajęcia koło Magnolii od 1 stycznia 2019 r. Mam do wynajęcia pokój od 1 stycznia 2019 r.\n\nGdzie?: Zaraz koło Magnolii\nIle?: 1050 zł - kwota zawiera wszystkie opłaty\n\nBlok wybudowany w tym roku, bardzo fajny standard.\n\nW pokoju jest rozkładana kanapa, pojemna szafa, mały stolik.\n\nKuchenka, pralka, lodówka, mikrofalówka, toster - podstawowe wyposażenie oczywiście jest.\n\nMieszkanie trzypokojowe. Współlokatorzy to dwaj koledzy pracująco/studiujący.\n\nWięcej info na priv ",
+  "meta": {
+    "subject": "room",
+    "rent": 1050,
+    "bills": 0,
+    "deposit": null,
+    "internetSpeed": null,
+    "district": null,
+    "street": null,
+    "roomsCount": 3,
+    "flatmatesCount": 2,
+    "flatmatesGenders": ["male", "male"],
+    "flatmatesOccupation": ["student/proffesional", "student/proffesional"],
+    "preferredOccupation": null,
+    "preferredGender": null
+  }
+}

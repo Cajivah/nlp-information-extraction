@@ -1,0 +1,18 @@
+{
+  "content": "Mieszkanie, pokój dla 1 osoby. Ładny, ciepły, przytulny pokój 2 osobowy. Wolne 1 miejsce.\n\nCena 500 zl +100=600 zł to całość opłat. Kaucja w tej samej wysokości.\n\nLokalizacja doskonale skomunikowana: tzw. szybki tramwaj, autobusy.\nDojazd tramwajem do rynku trwa ok 15 minut.\nOsiedle ładne, zieleń, niedaleko tereny spacerowe",
+  "meta": {
+    "subject": "roomShare",
+    "rent": 500,
+    "bills": 100,
+    "deposit": 600,
+    "internetSpeed": null,
+    "district": null,
+    "street": null,
+    "roomsCount": null,
+    "flatmatesCount": null,
+    "flatmatesGenders": null,
+    "flatmatesOccupation": null,
+    "preferredOccupation": null,
+    "preferredGender": null
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "content": "Pokój do wynajęcia. Wynajmę pokój jednoosobowy w mieszkaniu trzy pokojowym w domku jednorodzinnym.Mieszkają w nim już bardzo miłe dwie osoby pracujące.Dom znajduje się na osiedlu Jagodno 8km od Dworca PKP ,około 1km jest biedronka,park.Opłata wynosi 700zł +kaucja400zł +internet gratis ",
+  "meta": {
+    "subject": "room",
+    "rent": 700,
+    "bills": null,
+    "deposit": 400,
+    "internetSpeed": null,
+    "district": "Jagodno",
+    "street": null,
+    "roomsCount": 3,
+    "flatmatesCount": 2,
+    "flatmatesGenders": null,
+    "flatmatesOccupation": ["proffesional", "proffesional"],
+    "preferredOccupation": null,
+    "preferredGender": null
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "content": "Pokój 12 m2 Wrocław Fabryczna (ul. Balonowa) bez dodatkowych opłat. Dzień dobry,\n\nDo wynajęcia pokój jednoosobowy na ul. Balonowej.\nW pobliżu przystanek autobusowy, dobra komunikacja z resztą miasta.\n\nCena za wynajem 600 zł. W tym zawarte są już wszystkie opłaty. W tym internet.\n\nPreferowane osoby to Kobiety pracujące / studentki.\n\nZainteresowanych proszę o kontakt telefoniczny.\n\nPozdrawiam\nKamil",
+  "meta": {
+    "subject": "room",
+    "rent": 600,
+    "bills": 0  ,
+    "deposit": null,
+    "internetSpeed": null,
+    "district": "Fabryczna",
+    "street": "Balonowa",
+    "roomsCount": null,
+    "flatmatesCount": null,
+    "flatmatesGenders": null,
+    "flatmatesOccupation": null,
+    "preferredOccupation": null,
+    "preferredGender": "female"
+  }
+}

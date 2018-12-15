@@ -1,0 +1,18 @@
+{
+  "content": "Wynajem pokoju _ ul. Krucza / Wrocław. Do wynajęcia umeblowany pokój jednoosobowy (6m) w mieszkaniu trzy pokojowym (mieszkanie rozkładowe, łącznie 52 m). Nowa łazienka. Mieszkanie w dobrze skomunikowanej okolicy (tramwaje, autobusy). Dużo w okolicy sklepów (Piotr i Paweł, Biedronka, osiedlowe sklepy). Wymagana kaucja w wysokości 500 zł. Pokój wolny od 1 stycznia 2019 r. Kontakt telefoniczny w sprawie pokoju po godzinie 17:00. ",
+  "meta": {
+    "subject": "room",
+    "rent": null,
+    "bills": null,
+    "deposit": 500,
+    "internetSpeed": null,
+    "district": null,
+    "street": "Krucza",
+    "roomsCount": 3,
+    "flatmatesCount": null,
+    "flatmatesGenders": null,
+    "flatmatesOccupation": null,
+    "preferredOccupation": null,
+    "preferredGender": null
+  }
+}

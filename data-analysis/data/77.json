@@ -1,0 +1,18 @@
+{
+  "content": "Wynajmę pokój Wrocław Krzyki ul. Śliczna. Wynajmę ATRAKCYJNY pokój JEDNOOSOBOWY w MIESZKANIU dla czterech osób. Wrocław ul.Śliczna\n\nMieszkanie jasne, rozkładowe, komfortowo urządzone, nowy sprzęt, meble. Mieszkanie po remoncie.\nMedia miejskie, Internet 50MB na światłowodzie.\n\nBlisko Biedronka, Lidl, Kaufland, pizzeria, pierogarnia, gyros, usługi, blisko komunikacja tramwajowa, autobusowa. Blisko Aqua Park, dworzec PKS, PKP, do rynku 20 min spacerem.\n\nW mieszkaniu mieszka już dwóch sympatycznych chłopaków.\n\nCena najmu 850 zł plus zaliczka na media 100 zł.\nKaucja zwrotna 850 zł. ",
+  "meta": {
+    "subject": "room",
+    "rent": 850,
+    "bills": 100,
+    "deposit": 850,
+    "internetSpeed": 50,
+    "district": "Krzyki",
+    "street": "Śliczna",
+    "roomsCount": null,
+    "flatmatesCount": 2,
+    "flatmatesGenders": ["male", "male"],
+    "flatmatesOccupation": null,
+    "preferredOccupation": null,
+    "preferredGender": null
+  }
+}
