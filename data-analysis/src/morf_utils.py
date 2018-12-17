@@ -30,7 +30,16 @@ class MorfWrapper:
                 return True
         return False
 
-    def x_follows_y(self, x, y, limit=None):
+    def contains_any(self, words, limit=None):
+        if limit is None:
+            limit = len(self.lemmas)
+
+        for i in range(0, min(limit, len(self.lemmas)) - 1):
+            if any(word in words for word in self.lemmas[i]):
+                return True
+        return False
+
+    def x_before_y(self, x, y, limit=None):
         '''
         :param limit: x will be searched only in first :limit words
         '''
@@ -38,23 +47,23 @@ class MorfWrapper:
             limit = len(self.lemmas)
 
         for i in range(0, min(limit, len(self.lemmas)) - 1):
-            if y in self.lemmas[i] and x in self.lemmas[i + 1]:
+            if x in self.lemmas[i] and y in self.lemmas[i + 1]:
                 return True
         return False
 
-    def x_follows_number(self, x, limit=None):
+    def x_follows_number(self, x, number, limit=None):
         if limit is None:
             limit = len(self.lemmas)
 
         for i in range(0, min(limit, len(self.lemmas)) - 1):
-            if number_in_collection(self.lemmas[i]) and x in self.lemmas[i + 1]:
+            if number_in_collection(self.lemmas[i], number) and x in self.lemmas[i + 1]:
                 return True
         return False
 
 
-def number_in_collection(collection):
+def number_in_collection(collection, number):
     for item in collection:
-        if is_number(item):
+        if is_number(item) and number == float(item):
             return True
     return False
 
