@@ -6,7 +6,7 @@
     "bills": null,
     "deposit": null,
     "internetSpeed": null,
-    "district": null,
+    "district": "Biskupin",
     "street": "Kazimierska",
     "roomsCount": 3,
     "flatmatesCount": null,

@@ -35,17 +35,16 @@ class MorfWrapper:
         grouped = collections.OrderedDict()
         for segment_start, segment_end, word in self.analysis:
             token, lemma, tags, qualifiers1, qualifiers2 = word
+            core = lemma.split(':')[0]
             key = self.gen_key(segment_start, segment_end)
             if key in grouped:
                 if token not in grouped[key]:
                     grouped[key].append(token)
 
-                core = lemma.split(':')[0]
                 if core not in grouped[key]:
                     grouped[key].append(core)
             else:
                 grouped[key] = [token]
-                core = lemma.split(':')[0]
                 if core not in grouped[key]:
                     grouped[key].append(core)
         return list(grouped.values())
