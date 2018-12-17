@@ -18,6 +18,37 @@ class MorfWrapper:
                 grouped[key] = [lemma]
         return list(grouped.values())
 
+    def group_lemma_by_segment_no_suffix(self):
+        by_segment = self.group_by_segment()
+        grouped_no_suffix = []
+        for segment in by_segment:
+            cores = []
+            for lemma in segment:
+                core = lemma.split(':')[0]
+                if core not in cores:
+                    cores.append(core)
+            grouped_no_suffix.append(cores)
+
+        return grouped_no_suffix
+
+    def group_lemma_token_by_segment(self):
+        grouped = collections.OrderedDict()
+        for segment_start, segment_end, word in self.analysis:
+            token, lemma, tags, qualifiers1, qualifiers2 = word
+            core = lemma.split(':')[0]
+            key = self.gen_key(segment_start, segment_end)
+            if key in grouped:
+                if token not in grouped[key]:
+                    grouped[key].append(token)
+
+                if core not in grouped[key]:
+                    grouped[key].append(core)
+            else:
+                grouped[key] = [token]
+                if core not in grouped[key]:
+                    grouped[key].append(core)
+        return list(grouped.values())
+
     def gen_key(self, s1, s2):
         return str(s1) + str(s2)
 

@@ -6,7 +6,7 @@
     "bills": 100,
     "deposit": 800,
     "internetSpeed": null,
-    "district": null,
+    "district": "Śródmieście",
     "street": "Wyszyńskiego 116",
     "roomsCount": 4,
     "flatmatesCount": 3,

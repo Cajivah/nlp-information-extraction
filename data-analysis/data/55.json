@@ -6,7 +6,7 @@
     "bills": 150,
     "deposit": 350,
     "internetSpeed": null,
-    "district": null,
+    "district": "Karłowice",
     "street": "Czajkowskiego ",
     "roomsCount": 3,
     "flatmatesCount": null,

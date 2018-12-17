@@ -6,7 +6,7 @@
     "bills": 150,
     "deposit": 850,
     "internetSpeed": null,
-    "district": "",
+    "district": null,
     "street": "Słubicka",
     "roomsCount": null,
     "flatmatesCount": null,
