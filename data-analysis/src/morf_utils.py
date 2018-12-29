@@ -5,7 +5,7 @@ class MorfWrapper:
 
     def __init__(self, analysis) -> None:
         self.analysis = analysis
-        self.lemmas = self.group_by_segment()
+        self.lemmas = self.group_lemma_by_segment_no_suffix()
 
     def group_by_segment(self):
         grouped = collections.OrderedDict()
