@@ -89,3 +89,57 @@ class Comparator:
             return True if key in attributes and value is not None else False
         else:
             return True if key in attributes else False
+
+    def get_all_measures(self, extractor: InformationExtractor, attributes=datasets.attributes):
+        score = Score()
+        extracted_meta_list = extractor.extract_all(self.data_list)
+        diffs = compare_metadata_all(self.original_meta_list, extracted_meta_list)
+        for diff in diffs:
+            for key, value in diff.items():
+                if self.should_be_included(key, value['original'], attributes, skip_nones=False):
+                    if value['equal'] is True:
+                        score.inc_correctly_extracted()
+                        if value['original'] is None:
+                            score.inc_true_negative()
+                        else:
+                            score.inc_true_positive()
+                    else:
+                        score.inc_incorrectly_extracted()
+                        if value['original'] is None:
+                            score.inc_false_positive()
+                        elif value['extracted'] is None:
+                            score.inc_false_negative()
+        return score
+
+
+class Score:
+
+    def __init__(self):
+        self.accuracy = 0
+        self._correctly_extracted = 0
+        self._incorrectly_extracted = 0
+        self.true_positive = 0
+        self.true_negative = 0
+        self.false_positive = 0
+        self.false_negative = 0
+
+    def inc_correctly_extracted(self):
+        self._correctly_extracted += 1
+        self.accuracy = self._correctly_extracted / (self._correctly_extracted + self._incorrectly_extracted)
+
+    def inc_incorrectly_extracted(self):
+        self._incorrectly_extracted += 1
+        self.accuracy = self._correctly_extracted / (self._correctly_extracted + self._incorrectly_extracted)
+
+    def inc_true_positive(self):
+        self.true_positive += 1
+
+    def inc_true_negative(self):
+        self.true_negative += 1
+
+    def inc_false_positive(self):
+        self.false_positive += 1
+
+    def inc_false_negative(self):
+        self.false_negative += 1
+
