@@ -97,18 +97,21 @@ class Comparator:
         for diff in diffs:
             for key, value in diff.items():
                 if self.should_be_included(key, value['original'], attributes, skip_nones=False):
+                    extracted = value['original']
+                    original = value['original']
+
                     if value['equal'] is True:
                         score.inc_correctly_extracted()
-                        if value['original'] is None:
+                        if original is None:
                             score.inc_true_negative()
                         else:
                             score.inc_true_positive()
                     else:
                         score.inc_incorrectly_extracted()
-                        if value['original'] is None:
-                            score.inc_false_positive()
-                        elif value['extracted'] is None:
+                        if extracted is None and original is not None:
                             score.inc_false_negative()
+                        else:
+                            score.inc_false_positive()
         return score
 
 
