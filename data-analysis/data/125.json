@@ -1,0 +1,20 @@
+{
+  "content": "Do wynajęcia pokój 1-os. Wrocław, Kozanów. Do wynajęcia pokoj 1-os. (12 m^2). Mieszkanie znajduje się na Kozanowie, przy ulicy Gołężyckiej, niedaleko od przystanku tramwajowego oraz autobusowego, dojazd do centrum zajmuje około 20 min.\n\nMieszkanie o powierzchni 63^km składa sie z:\n- 3 pokoi\n- Kuchni\n- Toalety\n- Łazienki\n- Balkonu\n\nPreferowane osoby studiująco - pracujące, dbające o porządek, bez zwierząt\nTYLKO DLA KOBIET\n\nW mieszkaniu mieszkają juz dwie dziewczyny - 20 i 18 lat\nCena: 600 zł + 150 zł opłaty\nKaucja: 600 zł ",
+  "meta": {
+    "subject": "room",
+    "flatMeterage": 63,
+    "roomMeterage": 12,
+    "rent": 600,
+    "bills": 150,
+    "deposit": 600,
+    "internetSpeed": null,
+    "district": "Kozanów",
+    "street": "Gołężycka",
+    "roomsCount": 3,
+    "flatmatesCount": null,
+    "flatmatesGenders": ["female", "female"],
+    "flatmatesOccupation": null,
+    "preferredOccupation": null,
+    "preferredGender": "female"
+  }
+}

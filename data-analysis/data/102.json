@@ -1,0 +1,20 @@
+{
+  "content": "Do wynajęcia pokój jednoosobowy dla dziewczyny. Poszukuję współlokatorki do mieszkania 2-pokojowego.\nMieszkanie znajduje się na ul. Kosmonautów (Złotniki), 2 min od bloku znajduje się przystanek tramwajowy (linie: 3,10,20) oraz autobusowy (linia 148). Niedaleko bloku znajduje się mały osiedlowy sklepik, apteka, sklep dino oraz park złotnicki.\nPokój ma 11 m2, jest wyposażony w nową dwuosobową kanapę, dużą komodę oraz dużą szafę.\n\nKoszt wynajmu 700 zł + dopłaty za wodę jeżeli zużycie będzie powyżej czynszu + kaucja 700 zł\n\nZapraszam do obejrzenia :)\nMagda 607 923 161",
+  "meta": {
+    "subject": "room",
+    "flatMeterage": 11,
+    "roomMeterage": null,
+    "rent": 700,
+    "bills": null,
+    "deposit": 700,
+    "internetSpeed": null,
+    "district": "Złotniki",
+    "street": "Kosmonautów",
+    "roomsCount": 2,
+    "flatmatesCount": null,
+    "flatmatesGenders": null,
+    "flatmatesOccupation": null,
+    "preferredOccupation": null,
+    "preferredGender": "female"
+  }
+}

@@ -2,6 +2,8 @@
   "content": "Wynajmę pokój Wrocław. Wynajmę pokój 15m^2 w mieszkaniu 3 pokojowym. Mieszkanie znajduje się na osiedlu mieszkaniowym \"Lokum di Trevi'' na ulicy Klimasa. Bezpośrednio pod mieszkaniem jest sklep Freshmarket, restauracja, piekarnia, kwiaciarnia, oraz inne sklepy. Pod blokiem - przystanek autobusowy oraz tramwajowy. Pokój widoczny na pierwszych 3 zdjęciach. ",
   "meta": {
     "subject": "room",
+    "flatMeterage": null,
+    "roomMeterage": 15,
     "rent": null,
     "bills": null,
     "deposit": null,

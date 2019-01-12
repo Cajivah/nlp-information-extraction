@@ -1,0 +1,20 @@
+{
+  "content": "Pokój jednoosobowy Kuźniki. Do wynajęcia pokój jednoosobowy dla Kobiety. Mieszkanie znajduje się na ulicy Sarbinowskiej na Kuźnikach. . W pobliżu żabka, poczta oraz bar mleczny \"trzy stoliki\". Mieszkanie dwupokojowe-ciepłe, na trzecim piętrze. Zamieszkane przez jedną osobę.\nCena zawiera wszystkie opłaty (prąd, gaz, ogrzewanie miejskie, internet. Kaucja w wysokości 500 zł.\nPokój do wynajęcia od zaraz",
+  "meta": {
+    "subject": "room",
+    "flatMeterage": null,
+    "roomMeterage": null,
+    "rent": null,
+    "bills": 0,
+    "deposit": 500,
+    "internetSpeed": null,
+    "district": "Kuźniki",
+    "street": "Sarbinowska",
+    "roomsCount": 2,
+    "flatmatesCount": 1,
+    "flatmatesGenders": null,
+    "flatmatesOccupation": null,
+    "preferredOccupation": null,
+    "preferredGender": "female"
+  }
+}

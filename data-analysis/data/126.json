@@ -1,0 +1,20 @@
+{
+  "content": "Miejsce w pokoju dwuosobowym dla dziewczyny. Do wynajęcia miejsce w pokoju 2-osobowym (dla niepalącej dziewczyny)\nPokój z balkonem w mieszkaniu 3 pokojowym, w którym mieszkają już 4 dziewczyny.\nW mieszkaniu jest osobna łazienka z toaletą.\nOgrzewanie miejskie.\nKoszt 550 zł za całość.\nKaucja w wysokości 550 zł.\nDo wynajęcia od zaraz ",
+  "meta": {
+    "subject": "roomShare",
+    "flatMeterage": null,
+    "roomMeterage": null,
+    "rent": 550,
+    "bills": 0,
+    "deposit": 550,
+    "internetSpeed": null,
+    "district": null,
+    "street": null,
+    "roomsCount": 3,
+    "flatmatesCount": null,
+    "flatmatesGenders": ["female", "female", "female", "female"],
+    "flatmatesOccupation": null,
+    "preferredOccupation": null,
+    "preferredGender": "female"
+  }
+}

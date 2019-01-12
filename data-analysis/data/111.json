@@ -1,0 +1,20 @@
+{
+  "content": "Wynajmę pokój na Ip w bloku na Piłsudskiego, 11m2. Wynajmę pokój na ul.Piłsudskiego we Wrocławiu na Ip, w mieszkaniu 2pok., Umeblowany.\nCena 850zł bez dodatkowych opłat. ",
+  "meta": {
+    "subject": "room",
+    "flatMeterage": null,
+    "roomMeterage": 11,
+    "rent": 850,
+    "bills": 0,
+    "deposit": null,
+    "internetSpeed": null,
+    "district": null,
+    "street": "Piłsudskiego",
+    "roomsCount": 2,
+    "flatmatesCount": null,
+    "flatmatesGenders": null,
+    "flatmatesOccupation": null,
+    "preferredOccupation": null,
+    "preferredGender": null
+  }
+}

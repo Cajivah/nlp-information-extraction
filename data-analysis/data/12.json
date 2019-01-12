@@ -1,18 +1,20 @@
 {
-  "content": "BISKUPIN Wynajmę Pokój 1 lub 2 osobowy (Studenci). Do wynajęcia pokój na ulicy Kazimierskiej we Wrocławiu. Nieruchomość składa się z trzech pokoi, kuchni, łazienki i wc, przedpokoju,\"balkonu\" i skladzika.\n\nMieszkanie znajduje się na 9 piętrze w niedawno remontowanym bloku.\n\nMieszkanie jest w pełni umeblowane i wyposażone miedzy innymi w zmywarkę, kuchenkę gazową, szybki internet, drukarkę sieciową.\n\nŁazienka kilka lat po remoncie\n\nPozostałe pokoje wynajęte przez studentów budownictwa.\n\nPokój po odświeżeniu (wycyklinowana podłoga położone tapety nowe gniazdka i oświetlenie)\nPokój może być wynajęty przez 2 lub jedną osobę (Preferowani Studenci i Studentki)\n\nW pokoju znajduje się to co widać na zdjęciach, aranżacje oraz wyposażenie można modyfikować (co nie będzie potrzebne wyrzucamy)\n\nOkolica z doskonałym dojazdem do centrum 4 tramwaje (1;2;4;10) i 2 autobusy(145;146) w odległości około 100m od mieszkania .\nW pobliżu liczne sklepy, punkty usługowe oraz parki.\n10 min spacerem na stadion olimpijski (AWF)\nKomunikacją Miejską 10 minut do Politechniki Wrocławskiej oraz Klinik do Uniwersytetu Wrocławskiego oraz Przyrodniczego 15min.\nDworzec głównym tramwaj nr 2 25 min autobusy 145 146 okolo 15 zależy od godziny\n\nOpłaty: 900 zł + rachunki . Dostępne od zaraz ",
+  "content": "Duży pokój Wrocław Muchobór Wielki - Factory ",
   "meta": {
-    "subject": "room/roomShare",
-    "rent": 900,
-    "bills": null,
+    "subject": "roomShare",
+    "flatMeterage": null,
+    "roomMeterage": null,
+    "rent": 600,
+    "bills": 0,
     "deposit": null,
     "internetSpeed": null,
-    "district": "Biskupin",
-    "street": "Kazimierska",
+    "district": "Nowy Dwór",
+    "street": "Budziszyńska",
     "roomsCount": 3,
     "flatmatesCount": null,
-    "flatmatesGenders": ["male", "male"],
-    "flatmatesOccupation": ["student", "student"],
-    "preferredOccupation": "student",
+    "flatmatesGenders": ["male", "male", "female"],
+    "flatmatesOccupation": ["proffesional"],
+    "preferredOccupation": null,
     "preferredGender": null
   }
 }

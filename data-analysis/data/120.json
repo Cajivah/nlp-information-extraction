@@ -1,0 +1,20 @@
+{
+  "content": "Miejsce w pokoju dwuosobowym. Miejsce w pokoju dwuosobowym\n\nDo wynajęcia miejsce w pokoju dwuosobowym w mieszkaniu na ulicy Opolskiej, zamieszkałym przez dwie dziewczyny. Całe mieszkanie 40 m² składa się z dwóch pokoi, oddzielnej kuchni, łazienki i przedpokoju oraz balkonu. Mieszkanie jest zadbane, nowoczesne i w pełni wyposażone. Ogrzewanie miejskie. Świetna lokalizacja, nowe osiedle, spokojna okolica, dobre połączenia komunikacyjne (tramwaje 3 i 5 oraz autobusy), przystanki autobusowe po drugiej stronie ulicy. Blisko sklepy spożywcze (Żabka i T&J na osiedlu). Idealne dla studentki UP, PWr, UE i UM. Cena to 530 zł (w tym czynsz, media i Internet). Kaucja w wysokości 500zł. Miejsce w pokoju do wynajęcia od lutego, preferowana spokojna dziewczyna, niepaląca. Kontakt: 698478944 . Na wszystkie pytania chętnie odpowiemy. ",
+  "meta": {
+    "subject": "roomShare",
+    "flatMeterage": 40,
+    "roomMeterage": null,
+    "rent": 530,
+    "bills": 0,
+    "deposit": 500,
+    "internetSpeed": null,
+    "district": null,
+    "street": "Opolska",
+    "roomsCount": 2,
+    "flatmatesCount": null,
+    "flatmatesGenders": ["female", "female"],
+    "flatmatesOccupation": null,
+    "preferredOccupation": null,
+    "preferredGender": "female"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "content": "Pokój jednoosobowy do wynajęcia, centrum, niski czynsz. Do wynajęcia pokój jednoosobowy o powierzchni ok. 9,5 m2 w nowym budownictwie przy ul. Prądzyńskiego 54/9. Mieszkanie 3-pokojowe, pozostałe pokoje jednoosobowe zajmuje dwóch chłopaków.\n\nW pokoju znajdują się dwie pojemne szafy, łóżko, biurko i fotel. Pokój jest słoneczny z wyjściem na przestronny balkon. Dodatkowo w przedpokoju do dyspozycji lokatorów znajduje się duża szafa typu komandor. Mieszkanie w pełni wyposażone, w łazience pralka, w kuchni piekarnik wraz z płytą indukcyjną.\n\nW pobliżu przystanki autobusowe i tramwajowe. Linie tramwajowe 0P, 0L, 3, 5, linie autobusowe 114, 120, 240, 250.\n\nCzynsz najmu wynosi 900 zł bez dodatkowych opłat. Oferta bez udziału pośredników.\n\nOferta skierowana dla osób niepalących, nieposiadających zwierząt.\n\nZainteresowanych proszę o kontakt pod numerem telefonu – 508 281 112 . ",
+  "meta": {
+    "subject": "room",
+    "flatMeterage": null,
+    "roomMeterage": 9.5,
+    "rent": 900,
+    "bills": 0,
+    "deposit": null,
+    "internetSpeed": null,
+    "district": null,
+    "street": "Prądzyńskiego",
+    "roomsCount": 3,
+    "flatmatesCount": 2,
+    "flatmatesGenders": ["male", "male"],
+    "flatmatesOccupation": null,
+    "preferredOccupation": null,
+    "preferredGender": null
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "content": "Pokój. Szukam pary chętnej do zamieszkania w pokoju dwuosobowym na Nadodrzu. Mieszkanie jest dwupokojowe, w drugim pokoju mieszkają ciche i spokojne dziewczyny - studentka i maturzystka. Bardzo dobra lokalizacja - 1 minuta pieszo do przystanku Dworzec Nadodrze, połączenia z każdą częścią miasta. Do mieszkania należy także rowerownia. Umowa obowiązuje do czerwca 2019r, z możliwością przedłużenia na kolejny rok. Cena to ok. 1200 zł ze wszystkim\n:) ",
+  "meta": {
+    "subject": "room",
+    "flatMeterage": null,
+    "roomMeterage": null,
+    "rent": 1200,
+    "bills": 0,
+    "deposit": null,
+    "internetSpeed": null,
+    "district": "Nadodrze",
+    "street": null,
+    "roomsCount": 2,
+    "flatmatesCount": 2,
+    "flatmatesGenders": ["female", "female"],
+    "flatmatesOccupation": ["student"],
+    "preferredOccupation": null,
+    "preferredGender": null
+  }
+}

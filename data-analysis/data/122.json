@@ -1,0 +1,20 @@
+{
+  "content": "Wynajmę pokój.  Witam,\nWynajmę w pełni umeblowany pokój w budynku wybudowanym w 2017 roku.\nW budynku znajduje się winda i parking wewnątrz osiedla.\nCena najmu to 1000zł miesięcznie (w tym wszystkie opłaty) + ewentualne dopłaty, które są dzielone na ilość osób zamieszkujących to mieszkanie (ostatnio, po pół roku, było to jednorazowe 200zł, które było dzielone pomiędzy 3 osoby). Nie wymagam kaucji.\nJest bardzo szybki internet światłowodowy.\nW drugim pokoju mieszka młody chłopak.\nProszę o kontakt pod numerem telefonu: 795713777 .\n\nOgłoszenie nie stanowi oferty w rozumieniu Kodeksu Cywilnego ",
+  "meta": {
+    "subject": "room",
+    "flatMeterage": null,
+    "roomMeterage": null,
+    "rent": 1000,
+    "bills": 0,
+    "deposit": 0,
+    "internetSpeed": null,
+    "district": null,
+    "street": null,
+    "roomsCount": null,
+    "flatmatesCount": 1,
+    "flatmatesGenders": ["male"],
+    "flatmatesOccupation": null,
+    "preferredOccupation": null,
+    "preferredGender": null
+  }
+}

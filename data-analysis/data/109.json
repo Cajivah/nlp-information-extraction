@@ -1,0 +1,20 @@
+{
+  "content": "Pokój 1-osobowy okolice Sky Tower. Do wynajęcia pokój w bardzo dobrze skomunikowanej okolicy.\nPokój sam w sobie jest mały, lecz jak dla mnie jest to zaletą, chociażby przez mniejszą ilość sprzątania :)\nPokój znajduje się w bloku, na 8 piętrze, w mieszkaniu 4-pokojowym. Aktualnie zamieszkują go 3 mężczyźni - 2 studentów oraz mężczyzna pracujący.\nJazda rowerem z mieszkania do rynku zajmuje mi codziennie średnio 8 minut, co jest świetną zaletą tej okolicy\nAle co tu się rozpisywać - zainteresowanych zapraszam do obejrzenia lokum. :)\nProszę o wysyłanie SMS - często nie mam możliwości odebrania, lecz w wolnej chwili na pewno oddzwonię :)\nMożliwość wcześniejszej rezygnacji z umowy pod warunkiem znalezienia lokatora na swoje miejsce. ",
+  "meta": {
+    "subject": "room",
+    "flatMeterage": null,
+    "roomMeterage": null,
+    "rent": null,
+    "bills": null,
+    "deposit": null,
+    "internetSpeed": null,
+    "district": null,
+    "street": null,
+    "roomsCount": 4,
+    "flatmatesCount": 3,
+    "flatmatesGenders": ["male", "male", "male"],
+    "flatmatesOccupation": ["student", "student", "proffesional"],
+    "preferredOccupation": null,
+    "preferredGender": null
+  }
+}

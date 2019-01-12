@@ -3,9 +3,9 @@ import json
 import os
 
 
-attributes = ['subject', 'rent', 'bills', 'deposit', 'internetSpeed', 'district', 'street',
-              'roomsCount', 'flatmatesCount', 'flatmatesGenders',  'flatmatesOccupation',
-              'preferredOccupation',  'preferredGender']
+attributes = ['subject', 'flatMeterage', 'roomMeterage', 'rent', 'bills', 'deposit', 'internetSpeed',
+              'district', 'street', 'roomsCount', 'flatmatesCount', 'flatmatesGenders', 'flatmatesOccupation',
+              'preferredOccupation', 'preferredGender']
 
 
 def load(json_dir_name):

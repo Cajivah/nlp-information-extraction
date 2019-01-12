@@ -1,0 +1,20 @@
+{
+  "content": "Jednoosobowy pokój ul.Skwierzyńska. Mały pokój do wynajęcia, wszystkie opłaty w cenie również szybki 250mb internet, kaucja jednomiesięczna, okres wypowiedzenia dwumiesięczny. Osobno łazienka oraz wc. Mieszkanie czteropokojowe zamieszkałe przez trzy pary.",
+  "meta": {
+    "subject": "room",
+    "flatMeterage": null,
+    "roomMeterage": null,
+    "rent": null,
+    "bills": null,
+    "deposit": null,
+    "internetSpeed": 250,
+    "district": null,
+    "street": "Skwierzyńska",
+    "roomsCount": 4,
+    "flatmatesCount": 6,
+    "flatmatesGenders": ["male", "male", "male", "female", "female", "female"],
+    "flatmatesOccupation": null,
+    "preferredOccupation": null,
+    "preferredGender": null
+  }
+}

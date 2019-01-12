@@ -1,0 +1,20 @@
+{
+  "content": "Wynajmę Atrakcyjny pokój Wrocław ul. Śliczna. Wynajmę ATRAKCYJNY pokój JEDNOOSOBOWY w MIESZKANIU STUDENCKIM dla trzech osób.\nWrocław ul.Śliczna\n\nMieszkanie jasne, rozkładowe, komfortowo urządzone, nowy sprzęt, meble. Mieszkanie po remoncie.\nMedia miejskie, Internet 50MB na światłowodzie.\n\nBlisko Biedronka, Lidl, Kaufland, pizzeria, pierogarnia, gyros, usługi, blisko komunikacja tramwajowa, autobusowa. Blisko Aqua Park, dworzec PKS, PKP, do rynku 20 min spacerem.\n\nW mieszkaniu mieszka już dwóch sympatycznych chłopaków.\n\nCena najmu 900 zł plus zaliczka na media 100 zł.\nKaucja zwrotna 900 zł. ",
+  "meta": {
+    "subject": "room",
+    "flatMeterage": null,
+    "roomMeterage": null,
+    "rent": 900,
+    "bills": 100,
+    "deposit": 900,
+    "internetSpeed": 50,
+    "district": null,
+    "street": "Śliczna",
+    "roomsCount": null,
+    "flatmatesCount": 2,
+    "flatmatesGenders": ["male", "male"],
+    "flatmatesOccupation": null,
+    "preferredOccupation": null,
+    "preferredGender": null
+  }
+}

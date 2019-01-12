@@ -1,0 +1,20 @@
+{
+  "content": "Pokój jednoosobowy na Żmigrodzkiej dla dziewczyny od zaraz lub od lute. Do wynajęcia mamy od zaraz lub od lutego pokój jednoosobowy dla dziewczyny w mieszkaniu trzypokojowym. Pokój ma około 12 m i jest świeżo po malowaniu. Jeśli chodzi o meble to w chwili obecnej znajdują się w nim takie jak na załączonych zdjęciach jednak istnieje możliwość modyfikacji tzn. wyniesienia biurka bądź dostawienia dodatkowych szafek z kompletu. Cena za pokój to 700 zł bez dodatkowych opłat.\n\nW pozostałych pokojach mieszkają 2 dziewczyny pracujące w okolicach 30 roku życia, które cenią sobie umiejętność sprzątania po sobie i utrzymywania czystości na współdzielonych powierzchniach mieszkania oraz spokój i harmonię w codziennym życiu :)\n\nMieszkanie znajduje się na ul. Żmigrodzkiej 30 zaraz przy skrzyżowaniu Żmigrodzkiej z Kasprowicza i Broniewskiego gdzie krzyżuje się wiele linii tramwajowych i autobusowych jeżdżących w różne strony miasta. Zaraz przy bloku m.in przystanek linii tramwajowej nr 7, którą dojedziemy do Rynku w 10 minut. ",
+  "meta": {
+    "subject": "room",
+    "flatMeterage": null,
+    "roomMeterage": 12,
+    "rent": 700,
+    "bills": 0,
+    "deposit": null,
+    "internetSpeed": null,
+    "district": null,
+    "street": "Żmigrodzka",
+    "roomsCount": 3,
+    "flatmatesCount": 2,
+    "flatmatesGenders": ["female", "female"],
+    "flatmatesOccupation": ["proffesional", "proffesional"],
+    "preferredOccupation": null,
+    "preferredGender": "female"
+  }
+}

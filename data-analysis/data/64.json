@@ -2,6 +2,8 @@
   "content": "Pokój jednoosobowy dostępnych od stycznia 2019. Zwalniam pokój jednoosobowy o pow. Ok 10 m2 w mieszkaniu na ul. Nowodworskiej.\nMiesięczny koszt najmu wynosi 800 zł razem z wszystkimi rachunkami.",
   "meta": {
     "subject": "room",
+    "flatMeterage": null,
+    "roomMeterage": 10,
     "rent": 800,
     "bills": 0,
     "deposit": null,

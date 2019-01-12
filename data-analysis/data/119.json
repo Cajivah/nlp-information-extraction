@@ -1,0 +1,20 @@
+{
+  "content": "Pokój jednoosobowy od 1 lutego. Do wynajęcia pokój jednoosobowy w mieszkaniu znajdującym się na siódmym piętrze w bloku wybudowanym w 2008 r., mieszczącym się przy ulicy Spiżowej (boczna Grabiszyńskiej). Budynek jest monitorowany, dodatkowo za blokiem znajduje się strzeżony parking dla lokatorów. Mieszkanie 3-pokojowe, każdy z pokoi ma wyjście na balkon, dobrze wyposażona kuchnia, nowoczesna łazienka.\n\nKoszty najmu obejmują 750 zł plus rachunki (woda, prąd, Internet) 50-60zł miesięcznie. Kaucja 750 zł. Dobry dojazd autobusowy i tramwajowy – przystanek Stalowa.\n\nPokój wolny od 1 lutego!\n\nOgłoszenie dla osób pracujących bądź pracująco-studiujacych.\n\nW pozostalych pokojach mieszkają dwie osoby pracujące (kobiety). ",
+  "meta": {
+    "subject": "room",
+    "flatMeterage": null,
+    "roomMeterage": null,
+    "rent": 750,
+    "bills": 55,
+    "deposit": 750,
+    "internetSpeed": null,
+    "district": null,
+    "street": "Spiżowa",
+    "roomsCount": 3,
+    "flatmatesCount": 2,
+    "flatmatesGenders": ["female", "female"],
+    "flatmatesOccupation": ["]proffesional", "proffesional"],
+    "preferredOccupation": "proffesional",
+    "preferredGender": null
+  }
+}

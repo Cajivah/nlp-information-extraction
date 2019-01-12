@@ -1,0 +1,20 @@
+{
+  "content": "Pokój jednoosobowy do wynajęcia. Oporów, ul. Balzaka. Do wynajęcia dla 1 osoby pokój w mieszkaniu trzypokojowym (75m2). Pokój jest duży i ustawny (ok 14m2).\nMieszkanie w nowym budownictwie. W pokoju znajdują się meble (szafy, łóżko, stolik, krzesło).\nDo dyspozycji najemcy również salon z aneksem kuchennym, duży balkon (10m2) oraz poddasze (30m2), więc jeśli ktoś ma sporo sprzętów czy gratów, to nie będzie z tym najmniejszego problemu ;)\nW drugim pokoju mieszka pracująca 28letnia dziewczyna. 3 pokój do wspólnego użytku. W mieszkaniu będą docelowo tylko 2 osoby.\n\nMieszkanie znajduje się na Oporowie, na ulicy Balzaka (6km od centrum miasta). W pobliżu przystanki autobusowe (15 minut do centrum), 10-15 minut pieszo do pętli tramwajowej, 10-15 minut pieszo do Parku Grabiszyńskiego, w pobliżu wiele sklepów.\nWynajmę najchętniej dziewczynie pracującej (niepalącej).\nPokój dostępny od 1 lutego Cena: 1000zł\n\nZapraszam do oglądania :) ",
+  "meta": {
+    "subject": "room",
+    "flatMeterage": 75,
+    "roomMeterage": 14,
+    "rent": 1000,
+    "bills": null,
+    "deposit": null,
+    "internetSpeed": null,
+    "district": "Oporów",
+    "street": "Balzaka",
+    "roomsCount": 3,
+    "flatmatesCount": 1,
+    "flatmatesGenders": ["female"],
+    "flatmatesOccupation": ["proffesional"],
+    "preferredOccupation": null,
+    "preferredGender": "female"
+  }
+}

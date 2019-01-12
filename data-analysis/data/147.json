@@ -1,0 +1,20 @@
+{
+  "content": " Pokój jednoosobowy, ul. Wieczysta. Do wynajęcia pokój jednoosobowy w trzypokojowym mieszkaniu w dobrej lokalizacji - przy ul. Wieczystej. Mieszkanie na I piętrze. W pobliżu Biedronka, Lidl, Stokrotka, 10 minut piechotą do Aquaparku. Niedaleko przystanek autobusowy (linie 145, 146, 133, 113, 612, K). Świetny dojazd do Uniwersytetu Ekonomicznego i Medycznego. Wyposażenie pokoju jak na załączonych zdjęciach - duża szafa, łóżko-rozkładana kanapa i stolik. Drzwi zamykane na klucz. W dwóch pozostałych pokojach mieszkają studentka i para. Wszyscy spokojni i bezkonfliktowi. Kuchnia i łazienka jak na zdjęciach. Koszt: 700zł plus opłaty według liczników (około 50 zł). Kaucja w wysokości jednomiesięcznego czynszu. ",
+  "meta": {
+    "subject": "room",
+    "flatMeterage": null,
+    "roomMeterage": null,
+    "rent": 700,
+    "bills": 50,
+    "deposit": 700,
+    "internetSpeed": null,
+    "district": null,
+    "street": "Wieczysta",
+    "roomsCount": 3,
+    "flatmatesCount": 3,
+    "flatmatesGenders": ["female", "female", "male"],
+    "flatmatesOccupation": ["student"],
+    "preferredOccupation": null,
+    "preferredGender": null
+  }
+}

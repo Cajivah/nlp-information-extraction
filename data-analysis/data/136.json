@@ -1,0 +1,20 @@
+{
+  "content": "Pokój jednoosobowy dla dziewczyny - Popowice. Wynajmę pokój dla dziewczyny od 1 Lutego, w mieszkaniu 3 pokojowym w bloku, osobna kuchnia łazienka i wc, internet 700mb/s, dzielnica Popowice. Cena to 850zł. (w tej cenie zawarte są już wszystkie rachunki). Świetna komunikacja z centrum miasta, blisko CH. Magnolia, Biedronka, przychodnia",
+  "meta": {
+    "subject": "room",
+    "flatMeterage": null,
+    "roomMeterage": null,
+    "rent": 850,
+    "bills": 0,
+    "deposit": null,
+    "internetSpeed": 700,
+    "district": "Popowice",
+    "street": null,
+    "roomsCount": 3,
+    "flatmatesCount": null,
+    "flatmatesGenders": null,
+    "flatmatesOccupation": null,
+    "preferredOccupation": null,
+    "preferredGender": "female"
+  }
+}
