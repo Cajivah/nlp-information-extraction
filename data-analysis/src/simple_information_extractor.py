@@ -1,9 +1,19 @@
+import re
+
+import morfeusz2
+
 from src.information_extractor import InformationExtractor
 from src.morf_utils import MorfWrapper
-import morfeusz2
+from src.regex import non_alphabetic
 
 
 class SimpleInformationExtractor(InformationExtractor):
+
+    value_regex = r'[0-9]{1,3}(?:[,.][0-9])?'
+    unit_regex = [r'm[ ^]?[2²]' + non_alphabetic, 'mkw' + non_alphabetic, r'm\)', r'mk2' + non_alphabetic]
+    unit_regex = '|'.join(unit_regex)
+    meterage_regex = '(({}) ?(?:{}))'.format(value_regex, unit_regex)
+    meterage_pattern = re.compile(meterage_regex)
 
     def extract_subject(self, data):
         morf = morfeusz2.Morfeusz()
@@ -14,6 +24,17 @@ class SimpleInformationExtractor(InformationExtractor):
             return "room"
         elif is_room_share(morf_wrapper):
             return "roomShare"
+        return None
+
+    def extract_flat_meterage(self, data):
+        return None
+
+    def extract_room_meterage(self, data):
+        match = self.meterage_pattern.findall(data)
+        if match:
+            text, value = match[0]
+            value = value.replace(',', '.')
+            return float(value)
         return None
 
     def extract_rent(self, data):
