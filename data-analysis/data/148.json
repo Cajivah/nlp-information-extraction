@@ -9,7 +9,7 @@
     "deposit": null,
     "internetSpeed": null,
     "district": null,
-    "street": null,
+    "street": "Pereca",
     "roomsCount": 3,
     "flatmatesCount": 2,
     "flatmatesGenders": ["female", "female"],
