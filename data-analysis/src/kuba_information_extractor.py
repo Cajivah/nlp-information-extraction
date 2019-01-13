@@ -73,11 +73,47 @@ class KubaInformationExtractor(InformationExtractor):
 
         return districts_dict
 
+    def deogonkify_districts(self, districts):
+        districts_dict = {}
+        for district in districts:
+            deogonkified = deogonkify(district)
+            districts_dict[deogonkified] = district
+
+        return districts_dict
+
     def normalize_text(self, text):
         return deogonkify(text).lower()
 
     def extract_street(self, data):
+        with open("./data/streets/data.json", encoding="utf-8") as file:
+            streets_data = json.load(file)
+        streets = self.normalize_districts(streets_data)
+        text = deogonkify(data).lower()
+
+        street_to_index = defaultdict(int)
+        ul_index = re.search("([\s](((ul|pl|al)(\.|\s))|(ulic|plac|alei|aleja)))", text, flags=re.IGNORECASE)
+        if ul_index:
+            ul_index = ul_index.start()
+            probably_ul = text[ul_index:(ul_index + 40)]
+            for street in streets.keys():
+                street_no_suffix = street
+                if street[-1:] == 'a':
+                    street_no_suffix = street[:-1]
+                if street_no_suffix in probably_ul:
+                    self.add_street_to_count(street_to_index, probably_ul, street, street_no_suffix)
+            if len(street_to_index) > 0:
+                return streets[self.get_earliest_longest_street(street_to_index)]
+
         return None
+
+    def add_street_to_count(self, count, probably_ul, street, street_no_suffix):
+        street_index = probably_ul.index(street_no_suffix)
+        count[street] = count[street] if (
+                count[street] != 0 & (count[street] < street_index)) else street_index
+
+    def get_earliest_longest_street(self, data):
+        sorted_by_value = [k for k, v in sorted(data.items(), key=lambda kv: (kv[1], -len(kv[0])), reverse=False)]
+        return sorted_by_value[0]
 
     def extract_rooms_count(self, data):
         return None
