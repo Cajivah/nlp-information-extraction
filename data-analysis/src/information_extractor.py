@@ -22,7 +22,9 @@ class InformationExtractor(metaclass=ABCMeta):
                           'flatmatesGenders': self.extract_flatmates_gender(data),
                           'flatmatesOccupation': self.extract_flatmates_occupation(data),
                           'preferredOccupation': self.extract_preferred_gender(data),
-                          'preferredGender': self.extract_preferred_gender(data)}
+                          'preferredGender': self.extract_preferred_gender(data),
+                          'flatMeterage': self.extract_flat_meterage(data),
+                          'roomMeterage': self.extract_room_meterage(data)}
         return extracted_meta
 
     @abstractmethod
@@ -75,4 +77,12 @@ class InformationExtractor(metaclass=ABCMeta):
 
     @abstractmethod
     def extract_preferred_gender(self, data):
+        pass
+
+    @abstractmethod
+    def extract_flat_meterage(self, data):
+        pass
+
+    @abstractmethod
+    def extract_room_meterage(self, data):
         pass

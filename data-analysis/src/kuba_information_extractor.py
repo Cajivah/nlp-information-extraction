@@ -3,6 +3,7 @@ from src.morf_utils import MorfWrapper
 from src.compare_utils import deogonkify
 import morfeusz2
 import json
+import re
 from collections import defaultdict
 
 
@@ -21,7 +22,17 @@ class KubaInformationExtractor(InformationExtractor):
         return None
 
     def extract_internet_speed(self, data):
-        return None
+        regexp = '([0-9]+)\s*[MGK][B]/*[S]*'
+        speeds_found = re.findall(regexp, data, flags=re.IGNORECASE)
+        if not speeds_found:
+            return None
+
+        count = defaultdict(int)
+        for speed in speeds_found:
+            count[speed] += 1
+
+        sorted_by_value = sorted(count.items(), key=lambda kv: kv[1])
+        return int(sorted_by_value[0][0])
 
     def extract_district(self, data):
         with open("./data/districts/districts.json", encoding="utf-8") as file:
@@ -95,4 +106,10 @@ class KubaInformationExtractor(InformationExtractor):
         return None
 
     def extract_preferred_gender(self, data):
+        return None
+
+    def extract_flat_meterage(self, data):
+        return None
+
+    def extract_room_meterage(self, data):
         return None
