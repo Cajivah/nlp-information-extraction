@@ -11,12 +11,6 @@ class KubaInformationExtractor(InformationExtractor):
     def extract_subject(self, data):
         return None
 
-    def extract_flat_meterage(self, data):
-        return None
-
-    def extract_room_meterage(self, data):
-        return None
-
     def extract_rent(self, data):
         return None
 

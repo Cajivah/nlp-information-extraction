@@ -11,8 +11,6 @@ class InformationExtractor(metaclass=ABCMeta):
 
     def extract(self, data):
         extracted_meta = {'subject': self.extract_subject(data),
-                          'flatMeterage': self.extract_flat_meterage(data),
-                          'roomMeterage': self.extract_room_meterage(data),
                           'rent': self.extract_rent(data),
                           'bills': self.extract_bills(data),
                           'deposit': self.extract_deposit(data),
@@ -26,14 +24,6 @@ class InformationExtractor(metaclass=ABCMeta):
                           'preferredOccupation': self.extract_preferred_gender(data),
                           'preferredGender': self.extract_preferred_gender(data)}
         return extracted_meta
-
-    @abstractmethod
-    def extract_subject(self, data):
-        pass
-
-    @abstractmethod
-    def extract_flat_meterage(self, data):
-        pass
 
     @abstractmethod
     def extract_room_meterage(self, data):
