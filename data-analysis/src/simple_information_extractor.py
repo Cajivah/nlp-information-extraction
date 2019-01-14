@@ -9,11 +9,13 @@ from src.regex import non_alphabetic
 
 class SimpleInformationExtractor(InformationExtractor):
 
+    MAX_ROOM_METERAGE = 30
     value_regex = r'[0-9]{1,3}(?:[,.][0-9])?'
-    unit_regex = [r'm[ ^]?[2²]' + non_alphabetic, 'mkw' + non_alphabetic, r'm\)', r'mk2' + non_alphabetic]
-    unit_regex = '|'.join(unit_regex)
-    meterage_regex = '(({}) ?(?:{}))'.format(value_regex, unit_regex)
+    unit_regex = r'(?:m[ ^]?[2²]|mkw|mk2)' + non_alphabetic
+    meterage_regex = r'(({}) ?{})'.format(value_regex, unit_regex)
+    alt_meterage_regex = r'(({}) ?m){}'.format(value_regex, non_alphabetic)
     meterage_pattern = re.compile(meterage_regex)
+    alt_meterage_pattern = re.compile(alt_meterage_regex)
 
     def extract_subject(self, data):
         morf = morfeusz2.Morfeusz()
@@ -32,9 +34,25 @@ class SimpleInformationExtractor(InformationExtractor):
     def extract_room_meterage(self, data):
         match = self.meterage_pattern.findall(data)
         if match:
-            text, value = match[0]
-            value = value.replace(',', '.')
-            return float(value)
+            for text, value in match:
+                value = value.replace(',', '.')
+                value = float(value)
+                if value <= self.MAX_ROOM_METERAGE:
+                    return value
+
+        match = self.alt_meterage_pattern.findall(data)
+        if match:
+            for text, value in match:
+                value = value.replace(',', '.')
+                value = float(value)
+                if value <= self.MAX_ROOM_METERAGE:
+                    morf = morfeusz2.Morfeusz()
+                    analysis = morf.analyse(data)
+                    morf_wrapper = MorfWrapper(analysis)
+                    text = text.split(' ')
+                    text = [text[0], 'metr'] if len(text) > 1 else text
+                    if morf_wrapper.x_before_y_within_max_distance('[Pp]ok[oó]j', text, 5):
+                        return value
         return None
 
     def extract_rent(self, data):

@@ -1,5 +1,5 @@
 import collections
-
+import re
 
 class MorfWrapper:
 
@@ -88,6 +88,28 @@ class MorfWrapper:
 
         for i in range(0, min(limit, len(self.lemmas)) - 1):
             if number_in_collection(self.lemmas[i], number) and x in self.lemmas[i + 1]:
+                return True
+        return False
+
+    def x_before_y_within_max_distance(self, x, y, distance):
+        pattern = re.compile(x)
+        y_index = -1
+        print(y)
+        for lemma_index in range(len(self.lemmas) - len(y)):
+            for i, y_item in enumerate(y):
+                if y_item not in self.lemmas[lemma_index + i]:
+                    break
+                if i + 1 == len(y):
+                    y_index = lemma_index
+                    break
+        if y_index < 0:
+            return False
+
+        search_start_index = max(0, y_index - distance)
+        print(self.lemmas[search_start_index], ' ', self.lemmas[y_index])
+        for lemma in self.lemmas[search_start_index: y_index]:
+            if any(pattern.match(l) for l in lemma):
+                print('yup -- ', lemma)
                 return True
         return False
 
