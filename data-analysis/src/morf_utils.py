@@ -94,7 +94,6 @@ class MorfWrapper:
     def x_before_y_within_max_distance(self, x, y, distance):
         pattern = re.compile(x)
         y_index = -1
-        print(y)
         for lemma_index in range(len(self.lemmas) - len(y)):
             for i, y_item in enumerate(y):
                 if y_item not in self.lemmas[lemma_index + i]:
@@ -106,10 +105,8 @@ class MorfWrapper:
             return False
 
         search_start_index = max(0, y_index - distance)
-        print(self.lemmas[search_start_index], ' ', self.lemmas[y_index])
         for lemma in self.lemmas[search_start_index: y_index]:
             if any(pattern.match(l) for l in lemma):
-                print('yup -- ', lemma)
                 return True
         return False
 
