@@ -9,8 +9,9 @@ from src.regex import non_alphabetic
 
 class SimpleInformationExtractor(InformationExtractor):
 
+    MIN_FLAT_METERAGE = 40
     MAX_ROOM_METERAGE = 30
-    MAX_FLAT_METERAGE = 199
+    MAX_FLAT_METERAGE = 180
     value_regex = r'[1-9][0-9]{0,2}(?:[,.][0-9])?'
     unit_regex = r'(?:m[ ^]?[2²]|mkw|mk2)' + non_alphabetic
     meterage_regex = r'(({}) ?{})'.format(value_regex, unit_regex)
@@ -30,10 +31,10 @@ class SimpleInformationExtractor(InformationExtractor):
         return None
 
     def extract_flat_meterage(self, data):
-        return None
+        return self.extract_meterage(data, r'mieszkanie', self.MIN_FLAT_METERAGE, self.MAX_FLAT_METERAGE)
 
     def extract_room_meterage(self, data):
-        return self.extract_meterage(data, '[Pp]ok[oó]j', max_val=self.MAX_ROOM_METERAGE)
+        return self.extract_meterage(data, r'[Pp]ok[oó]j', max_val=self.MAX_ROOM_METERAGE)
 
     def extract_meterage(self, data, preceding, min_val=1, max_val=99999):
         match = self.meterage_pattern.findall(data)

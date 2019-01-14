@@ -98,6 +98,7 @@ class MorfWrapper:
             for i, y_item in enumerate(y):
                 if y_item not in self.lemmas[lemma_index + i]:
                     break
+                    
                 if i + 1 == len(y):
                     y_index = lemma_index
                     break
