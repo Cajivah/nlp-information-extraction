@@ -28,7 +28,7 @@ class InformationExtractor(metaclass=ABCMeta):
         return extracted_meta
 
     @abstractmethod
-    def extract_subject(self, data):
+    def extract_room_meterage(self, data):
         pass
 
     @abstractmethod
