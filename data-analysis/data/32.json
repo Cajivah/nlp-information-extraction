@@ -10,7 +10,7 @@
     "internetSpeed": null,
     "district": null,
     "street": "Inowrocławska",
-    "roomsCount": 3,
+    "roomsCount": null,
     "flatmatesCount": 2,
     "flatmatesGenders": ["female", "female"],
     "flatmatesOccupation": ["proffesional", "proffesional"],

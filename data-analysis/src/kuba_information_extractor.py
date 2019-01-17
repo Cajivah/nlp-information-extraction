@@ -127,6 +127,25 @@ class KubaInformationExtractor(InformationExtractor):
         return sorted_by_value[0]
 
     def extract_rooms_count(self, data):
+
+        normalized = deogonkify(data).lower()
+
+        count_to_keyword = {
+            6: ['(6((\s*)(-|–|\')*(\s*)cio)*|szesc)'],
+            5: ['(5((\s*)(-|–|\')*(\s*)cio)*|piec)'],
+            4: ['(cztero|4((\s*)(-|–|\')*(\s*)ro)*|czterech|cztery)'],
+            3: ['(trzy|3((\s*)(-|–|\')*(\s*)ro)*|trzech)'],
+            2: ['(dwu|2((\s*)(-|–|\')*(\s*)ro)*|dwoch|dwa)']
+        }
+
+        tail_regex = '(\s*)((-|–)*|(\w*))(\s*)(pokojow|pok(\s|.|,)|pokoi)'
+        head_regex = '(\s|\.)'
+
+        for count in count_to_keyword.keys():
+            for keyword_regex in count_to_keyword[count]:
+                if re.search(head_regex + keyword_regex + tail_regex, normalized):
+                    return count
+
         return None
 
     def extract_flatmates_count(self, data):
