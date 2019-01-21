@@ -17,3 +17,19 @@ def load(json_dir_name):
             classified_json = json.load(json_data)
             data.append(classified_json)
     return data
+
+
+def save_by_category(directory, data_sets, category):
+    for i in range(0, len(data_sets)):
+        content = data_sets[i]["content"]
+        category = data_sets[i]["meta"][category]
+        if category is None:
+            category = 'any'
+        with open(f'{directory}/{category}/{str(i)}.txt', mode='x', encoding='utf-8') as f:
+            f.write(content)
+    return None
+
+
+def load_stopwords():
+    with open('data/nltk/stopwords.json', encoding='utf-8') as f:
+        return json.load(f)

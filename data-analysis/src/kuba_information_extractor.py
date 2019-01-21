@@ -5,12 +5,22 @@ import morfeusz2
 import json
 import re
 from collections import defaultdict
+import pickle
 
 
 class KubaInformationExtractor(InformationExtractor):
 
     def extract_subject(self, data):
-        return None
+        translation = {"1": "room", "0":  "roomShare"}
+        with open('subject_classifier', 'rb') as training_model:
+            model = pickle.load(training_model)
+
+        with open('tfidf_subject.pickle', 'rb') as tfidf_model:
+            tfidf = pickle.load(tfidf_model)
+
+        prepared = tfidf.transform([data])
+        prediction = model.predict(prepared)
+        return translation[str(prediction[0])]
 
     def extract_rent(self, data):
         return None
@@ -134,8 +144,8 @@ class KubaInformationExtractor(InformationExtractor):
             6: ['(6((\s*)(-|–|\')*(\s*)cio)*|szesc)'],
             5: ['(5((\s*)(-|–|\')*(\s*)cio)*|piec)'],
             4: ['(cztero|4((\s*)(-|–|\')*(\s*)ro)*|czterech|cztery)'],
-            3: ['(trzy|3((\s*)(-|–|\')*(\s*)ro)*|trzech)'],
-            2: ['(dwu|2((\s*)(-|–|\')*(\s*)ro)*|dwoch|dwa)']
+            3: ['(trzy|3(\s*)(-|–|\')*(\s*)|trzech)'],
+            2: ['(dwu|2(\s*)(-|–|\')*(\s*)|dwoch|dwa)']
         }
 
         tail_regex = '(\s*)((-|–)*|(\w*))(\s*)(pokojow|pok(\s|.|,)|pokoi)'
@@ -158,10 +168,28 @@ class KubaInformationExtractor(InformationExtractor):
         return None
 
     def extract_preferred_occupation(self, data):
-        return None
+        translation = {"1": "room", "0":  "roomShare"}
+        with open('subject_classifier', 'rb') as training_model:
+            model = pickle.load(training_model)
+
+        with open('tfidf_subject.pickle', 'rb') as tfidf_model:
+            tfidf = pickle.load(tfidf_model)
+
+        prepared = tfidf.transform([data])
+        prediction = model.predict(prepared)
+        return translation[str(prediction[0])]
 
     def extract_preferred_gender(self, data):
-        return None
+        translation = {"1": "room", "0":  "roomShare"}
+        with open('subject_classifier', 'rb') as training_model:
+            model = pickle.load(training_model)
+
+        with open('tfidf_subject.pickle', 'rb') as tfidf_model:
+            tfidf = pickle.load(tfidf_model)
+
+        prepared = tfidf.transform([data])
+        prediction = model.predict(prepared)
+        return translation[str(prediction[0])]
 
     def extract_flat_meterage(self, data):
         return None

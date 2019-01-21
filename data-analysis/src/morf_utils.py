@@ -49,6 +49,17 @@ class MorfWrapper:
                     grouped[key].append(core)
         return list(grouped.values())
 
+    def get_tokens(self):
+        last = ''
+        tokens = []
+        for segment_start, segment_end, word in self.analysis:
+            token, lemma, tags, qualifiers1, qualifiers2 = word
+            core = lemma.split(':')[0]
+            if core != last:
+                tokens.append(core)
+                last = core
+        return tokens
+
     def gen_key(self, s1, s2):
         return str(s1) + str(s2)
 
