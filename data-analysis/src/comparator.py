@@ -109,10 +109,10 @@ class Comparator:
                             score.inc_true_positive()
                     else:
                         score.inc_incorrectly_extracted()
-                        if (extracted is None and original is not None) or (extracted is not None and original is not None):
-                            score.inc_false_negative()
-                        else:
+                        if original is None:
                             score.inc_false_positive()
+                        else:
+                            score.inc_false_negative()
         return score
 
 
@@ -151,8 +151,8 @@ class Score:
 def get_confusion_matrix(score: Score):
     confusion_matrix =  [
         [score.true_positive, score.false_negative],
-        [score.false_positive, score.true_negative]
+        [score.true_negative, score.false_positive]
     ]
     return pd.DataFrame(confusion_matrix, index= ["Zawarte", "Niezawarte"], \
-                                        columns=["Wydobyte", "Niewydobyte"])
+                                        columns=["Prawidłowe", "Nieprawidłowe"])
 
