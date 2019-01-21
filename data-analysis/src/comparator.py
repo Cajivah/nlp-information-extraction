@@ -2,6 +2,7 @@ from collections import Counter
 
 from src import datasets
 from src.information_extractor import InformationExtractor
+import pandas as pd
 
 
 def compare_metadata_all(list1, list2) -> list:
@@ -108,7 +109,7 @@ class Comparator:
                             score.inc_true_positive()
                     else:
                         score.inc_incorrectly_extracted()
-                        if extracted is None and original is not None:
+                        if (extracted is None and original is not None) or (extracted is not None and original is not None):
                             score.inc_false_negative()
                         else:
                             score.inc_false_positive()
@@ -145,4 +146,13 @@ class Score:
 
     def inc_false_negative(self):
         self.false_negative += 1
+
+
+def get_confusion_matrix(score: Score):
+    confusion_matrix =  [
+        [score.true_positive, score.false_negative],
+        [score.false_positive, score.true_negative]
+    ]
+    return pd.DataFrame(confusion_matrix, index= ["Zawarte", "Niezawarte"], \
+                                        columns=["Wydobyte", "Niewydobyte"])
 
