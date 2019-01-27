@@ -13,8 +13,8 @@
     "roomsCount": 3,
     "flatmatesCount": 2,
     "flatmatesGenders": ["female", "female"],
-    "flatmatesOccupation": ["]proffesional", "proffesional"],
-    "preferredOccupation": "proffesional",
+    "flatmatesOccupation": ["proffesional", "proffesional"],
+    "preferredOccupation": "professional",
     "preferredGender": null
   }
 }

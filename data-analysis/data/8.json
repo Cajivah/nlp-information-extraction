@@ -14,6 +14,7 @@
     "flatmatesCount": null,
     "flatmatesGenders": null,
     "flatmatesOccupation": null,
-    "preferredOccupation": null
+    "preferredOccupation": null,
+    "preferredGender": null
   }
 }
