@@ -24,10 +24,12 @@ class SimpleInformationExtractor(InformationExtractor):
         analysis = morf.analyse(data)
         morf_wrapper = MorfWrapper(analysis)
 
-        if is_room(morf_wrapper) and not is_room_share(morf_wrapper):
+        if is_room_basic(morf_wrapper):
             return "room"
         elif is_room_share(morf_wrapper):
             return "roomShare"
+        elif is_room(morf_wrapper):
+            return "room"
         return None
 
     def extract_flat_meterage(self, data):
@@ -44,7 +46,7 @@ class SimpleInformationExtractor(InformationExtractor):
                 value = float(value)
                 if min_val <= value <= max_val:
                     return value
-
+        
         search_distance = 5
         match = self.alt_meterage_pattern.findall(data)
         if match:
@@ -97,17 +99,25 @@ class SimpleInformationExtractor(InformationExtractor):
         return None
 
 
+def is_room_basic(morf_wrapper):
+    limit = 30
+    if morf_wrapper.x_before_y('pokój', 'jednoosobowy', limit):
+        return True
+    if morf_wrapper.contains_any(['jednoosobowy', 'jedynka', '1os', '1-os', '1-osobowy'], limit):
+        return True
+    return False
+
+
 def is_room(morf_wrapper):
     limit = 30
-    if (morf_wrapper.contains_any(['jednoosobowy', '1os', '1-os', '1-osobowy'], limit)
-            or (morf_wrapper.contains('pokój', limit))):
+    if (morf_wrapper.contains('pokój', limit)):
         return True
     return False
 
 
 def is_room_share(morf_wrapper):
     limit = 30
-    if morf_wrapper.contains_any(['dwuosobowy', '2os', '2-os', '2-osobowy'], limit) \
+    if morf_wrapper.contains_any(['dwuosobowy', 'dwójka', '2os', '2-os', '2-osobowy'], limit) \
             or morf_wrapper.x_before_y('miejsce', 'w', limit) \
             or morf_wrapper.x_follows_number('osobowy', 2, limit):
         return True
