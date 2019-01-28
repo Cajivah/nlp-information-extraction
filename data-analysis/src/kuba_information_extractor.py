@@ -12,7 +12,7 @@ class KubaInformationExtractor(InformationExtractor):
 
     def extract_subject(self, data):
         translation = {"1": "room", "0":  "roomShare"}
-        with open('subject_classifier', 'rb') as training_model:
+        with open('classifier_subject.pickle', 'rb') as training_model:
             model = pickle.load(training_model)
 
         with open('tfidf_subject.pickle', 'rb') as tfidf_model:
@@ -20,7 +20,9 @@ class KubaInformationExtractor(InformationExtractor):
 
         prepared = tfidf.transform([data])
         prediction = model.predict(prepared)
-        return translation[str(prediction[0])]
+        result = translation[str(prediction[0])]
+
+        return result if not result == "any" else None
 
     def extract_rent(self, data):
         return None
@@ -168,28 +170,32 @@ class KubaInformationExtractor(InformationExtractor):
         return None
 
     def extract_preferred_occupation(self, data):
-        translation = {"1": "room", "0":  "roomShare"}
-        with open('subject_classifier', 'rb') as training_model:
+        translation = {"0": "any", "1": "professional", "2": "student"}
+        with open('classifier_occupation.pickle', 'rb') as training_model:
             model = pickle.load(training_model)
 
-        with open('tfidf_subject.pickle', 'rb') as tfidf_model:
+        with open('tfidf_occupation.pickle', 'rb') as tfidf_model:
             tfidf = pickle.load(tfidf_model)
 
         prepared = tfidf.transform([data])
         prediction = model.predict(prepared)
-        return translation[str(prediction[0])]
+        result = translation[str(prediction[0])]
+
+        return result if not result == "any" else None
 
     def extract_preferred_gender(self, data):
-        translation = {"1": "room", "0":  "roomShare"}
-        with open('subject_classifier', 'rb') as training_model:
+        translation = {"1": "female", "2": "male", "0": "any"}
+        with open('classifier_gender.pickle', 'rb') as training_model:
             model = pickle.load(training_model)
 
-        with open('tfidf_subject.pickle', 'rb') as tfidf_model:
+        with open('tfidf_gender.pickle', 'rb') as tfidf_model:
             tfidf = pickle.load(tfidf_model)
 
         prepared = tfidf.transform([data])
         prediction = model.predict(prepared)
-        return translation[str(prediction[0])]
+        result = translation[str(prediction[0])]
+
+        return result if not result == "any" else None
 
     def extract_flat_meterage(self, data):
         return None

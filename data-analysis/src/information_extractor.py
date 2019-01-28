@@ -21,7 +21,7 @@ class InformationExtractor(metaclass=ABCMeta):
                           'flatmatesCount': self.extract_flatmates_count(data),
                           'flatmatesGenders': self.extract_flatmates_gender(data),
                           'flatmatesOccupation': self.extract_flatmates_occupation(data),
-                          'preferredOccupation': self.extract_preferred_gender(data),
+                          'preferredOccupation': self.extract_preferred_occupation(data),
                           'preferredGender': self.extract_preferred_gender(data),
                           'flatMeterage': self.extract_flat_meterage(data),
                           'roomMeterage': self.extract_room_meterage(data)}
